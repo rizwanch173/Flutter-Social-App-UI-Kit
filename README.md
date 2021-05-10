@@ -15,7 +15,7 @@ https://youtu.be/S44aFFXobnU
 ![Color Control (0-01-43-28)](https://user-images.githubusercontent.com/57150383/117729426-3ee8f580-b204-11eb-9780-53a1cac0c728.png)
 
 ## Licensing
-Copyright 2021 Floein Inc
+Copyright 2021 Floein Dev
 
 This is an open-source project meant for learning so it's requested to not sell or republish the application anywhere.
 
