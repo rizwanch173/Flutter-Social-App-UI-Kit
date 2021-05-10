@@ -1,5 +1,6 @@
 Flutter Social Media App UI Kit
-
+### Open Source :)
+licence section is given below
 ### For Demo Video please click on following link.
 https://youtu.be/S44aFFXobnU
 
@@ -13,22 +14,17 @@ https://youtu.be/S44aFFXobnU
 ![Color Control (0-01-26-13)](https://user-images.githubusercontent.com/57150383/117729425-3e505f00-b204-11eb-91f1-d4fb0773efc1.png)
 ![Color Control (0-01-43-28)](https://user-images.githubusercontent.com/57150383/117729426-3ee8f580-b204-11eb-9780-53a1cac0c728.png)
 
+## Licensing
+Copyright 2021 Floein Inc
 
+This is an open-source project meant for learning so it's requested to not sell or republish the application anywhere.
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use and copy, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
+No permission is granted to sell/copies of the software/codebase.
 
+No permission is granted to publish/distribute the software/codebase.
 
-
-
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+No permission is granted to republish the same software/codebase.
