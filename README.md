@@ -1,8 +1,11 @@
-##Flutter Social Media App UI Kit
+#Flutter Social Media App UI Kit
 
-A new Flutter application.
+Flutter Social Media App UI Kit
 
 ## Getting Started
+
+![Color Control (0-01-58-01)](https://user-images.githubusercontent.com/57150383/117729069-c08c5380-b203-11eb-8437-3cfb7dba830c.png)
+
 
 This project is a starting point for a Flutter application.
 
