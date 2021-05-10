@@ -1,7 +1,7 @@
 Flutter Social Media App UI Kit
 ### Open Source :)
 #### licence section is given below (at the End of this the Document)
-### For Demo Video please click on following link.
+### For Demo Video link is given Below.
 https://youtu.be/S44aFFXobnU
 
 ## Screenshot
