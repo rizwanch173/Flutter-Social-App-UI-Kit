@@ -1,4 +1,4 @@
-# flutter_social_app_ui_kit
+##Flutter Social Media App UI Kit
 
 A new Flutter application.
 
