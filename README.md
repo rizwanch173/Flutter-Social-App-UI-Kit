@@ -1,4 +1,5 @@
 Flutter Social Media App UI Kit
+### Flutter 2.2.0
 #### Open Source :)
 ### Licence Section is given below (at the End of this the Document)
 #### For Demo Video link is given Below.
