@@ -17,14 +17,14 @@ https://youtu.be/S44aFFXobnU
 ## Licensing
 Copyright 2021 Floein Dev
 
-This is an open-source project meant for learning so it's not allowed to republish the whole application anywhere.
+* This is an open-source project meant for learning so it's not allowed to republish the whole application anywhere.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use and copy, subject to the following conditions:
+* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use and copy, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-No permission is granted to sell/copies of the software/codebase.
+* No permission is granted to sell/copies of the software/codebase.
 
-No permission is granted to publish/distribute the software/codebase.
+* No permission is granted to publish/distribute the software/codebase.
 
-No permission is granted to republish the same software/codebase.
+* No permission is granted to republish the same software/codebase.
