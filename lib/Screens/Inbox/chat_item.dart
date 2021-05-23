@@ -2,21 +2,21 @@ import 'package:floein_social_app/Screens/Inbox/conversation.dart';
 import 'package:flutter/material.dart';
 
 class ChatItem extends StatefulWidget {
-  final String dp;
-  final String name;
-  final String time;
-  final String msg;
-  final bool isOnline;
-  final int counter;
+  final String? dp;
+  final String? name;
+  final String? time;
+  final String? msg;
+  final bool? isOnline;
+  final int? counter;
 
   ChatItem({
-    Key key,
-    @required this.dp,
-    @required this.name,
-    @required this.time,
-    @required this.msg,
-    @required this.isOnline,
-    @required this.counter,
+    Key? key,
+    required this.dp,
+    required this.name,
+    required this.time,
+    required this.msg,
+    required this.isOnline,
+    required this.counter,
   }) : super(key: key);
 
   @override
@@ -72,7 +72,7 @@ class _ChatItemState extends State<ChatItem> {
                 child: Center(
                   child: Container(
                     decoration: BoxDecoration(
-                      color: widget.isOnline ? Color(0xff651CE5) : Colors.grey,
+                      color: widget.isOnline! ? Color(0xff651CE5) : Colors.grey,
                       borderRadius: BorderRadius.circular(6),
                     ),
                     height: 9,

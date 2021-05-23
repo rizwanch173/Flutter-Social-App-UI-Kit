@@ -4,19 +4,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeCard extends StatefulWidget {
-  final String dp;
-  final String name;
-  final String des;
+  final String? dp;
+  final String? name;
+  final String? des;
   final String img;
-  final String hash;
+  final String? hash;
 
   HomeCard(
-      {Key key,
-      @required this.dp,
-      @required this.name,
-      @required this.des,
-      @required this.hash,
-      @required this.img})
+      {Key? key,
+      required this.dp,
+      required this.name,
+      required this.des,
+      required this.hash,
+      required this.img})
       : super(key: key);
   @override
   _HomeCardState createState() => _HomeCardState();
@@ -187,14 +187,14 @@ class _HomeCardState extends State<HomeCard> {
                   Row(
                     children: [
                       CircleAvatar(
-                        backgroundImage: AssetImage(widget.dp),
+                        backgroundImage: AssetImage(widget.dp!),
                         radius: 25,
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Text(
-                        widget.name,
+                        widget.name!,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
@@ -218,7 +218,7 @@ class _HomeCardState extends State<HomeCard> {
                     children: [
                       Expanded(
                         child: Text(
-                          widget.hash,
+                          widget.hash!,
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Color(0xff00d289),

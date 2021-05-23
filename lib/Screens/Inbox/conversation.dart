@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Conversation extends StatefulWidget {
-  final String dp, name;
+  final String? dp, name;
 
   Conversation({
-    Key key,
-    @required this.dp,
-    @required this.name,
+    Key? key,
+    required this.dp,
+    required this.name,
   }) : super(key: key);
   @override
   _ConversationState createState() => _ConversationState();
@@ -77,7 +77,7 @@ class _ConversationState extends State<Conversation> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        widget.name,
+                        widget.name!,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
@@ -161,7 +161,7 @@ class _ConversationState extends State<Conversation> {
                             style: TextStyle(
                               fontSize: 15.0,
                               color:
-                                  Theme.of(context).textTheme.headline6.color,
+                                  Theme.of(context).textTheme.headline6!.color,
                             ),
                             decoration: InputDecoration(
                               contentPadding: EdgeInsets.all(10.0),
@@ -171,7 +171,7 @@ class _ConversationState extends State<Conversation> {
                               hintStyle: TextStyle(
                                 fontSize: 15.0,
                                 color:
-                                    Theme.of(context).textTheme.headline6.color,
+                                    Theme.of(context).textTheme.headline6!.color,
                               ),
                             ),
                             maxLines: null,

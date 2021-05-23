@@ -9,15 +9,15 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class CustomNavBar extends StatelessWidget {
   const CustomNavBar({
-    Key key,
-    @required this.selectedMenu,
+    Key? key,
+    required this.selectedMenu,
   }) : super(key: key);
 
   final MenuState selectedMenu;
 
   @override
   Widget build(BuildContext context) {
-    Route route = ModalRoute.of(context);
+    Route? route = ModalRoute.of(context);
     return Container(
       color: Colors.transparent,
       height: 140,
@@ -61,7 +61,7 @@ class CustomNavBar extends StatelessWidget {
                           : null,
                       child: GestureDetector(
                         onTap: () {
-                          if (!(route.settings.name == "/home"))
+                          if (!(route!.settings.name == "/home"))
                             Navigator.pushNamed(context, HomeScreen.routeName);
                         },
                         child: Column(
@@ -99,7 +99,7 @@ class CustomNavBar extends StatelessWidget {
                     ),
                     GestureDetector(
                       onTap: () {
-                        if (!(route.settings.name == "/discover"))
+                        if (!(route!.settings.name == "/discover"))
                           Navigator.pushNamed(context, Discover.routeName);
                       },
                       child: Container(
@@ -167,7 +167,7 @@ class CustomNavBar extends StatelessWidget {
                           : null,
                       child: GestureDetector(
                         onTap: () {
-                          if (!(route.settings.name == "/inbox"))
+                          if (!(route!.settings.name == "/inbox"))
                             Navigator.pushNamed(context, InboxScreen.routeName);
                         },
                         child: Column(
@@ -218,7 +218,7 @@ class CustomNavBar extends StatelessWidget {
                           : null,
                       child: GestureDetector(
                         onTap: () {
-                          if (!(route.settings.name == "/profile"))
+                          if (!(route!.settings.name == "/profile"))
                             Navigator.pushNamed(
                                 context, ProfileScreen.routeName);
                         },
